@@ -1,0 +1,37 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Relay-tester</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CandCPP</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Relay-tester</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Relay-tester.cproj" File="Relay-tester.cproj" ReplaceParameters="true">
+      <Folder Name="libm" TargetFolderName="libm" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="buttons.c">buttons.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="buttons.h">buttons.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="global.h">global.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="lcd1602.c">lcd1602.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="lcd1602.h">lcd1602.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="main.c">main.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="main.h">main.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="menu.c">menu.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="menu.h">menu.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="stopwatch.c">stopwatch.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="stopwatch.h">stopwatch.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="stopwatch_globals.h">stopwatch_globals.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="timer.c">timer.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="timer.h">timer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="uart.c">uart.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="uart.h">uart.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
