@@ -2,6 +2,7 @@
 Relay tester - the device which was intended to facilitate the procedure for measuring the response time of electromechanical relays.
 
 ![alt text](https://github.com/shiv-tech-git/relay-tester/blob/main/Photos/IMG_20191005_150716.jpg)
+<a href="https://www.youtube.com/watch?v=OKULMI0m8DY" target="_blank"><img src="https://www.youtube.com/watch?v=OKULMI0m8DY" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 Features:
 * Lightweight
